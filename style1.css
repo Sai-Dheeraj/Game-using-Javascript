@@ -1,0 +1,223 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  
+}
+
+
+.finalscore{
+    position: absolute;
+    left: 49.5%;
+    transform: translatex(-50%);
+    top: 520px;
+    color: #555;
+    font-size: 18px;
+    font-family: 'Lato';
+    padding: 10px;
+    width: 160px;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+.finalscore:focus{outline:none;}
+
+
+body {
+    background-image: linear-gradient(rgba(62, 20, 20, 0.4), rgba(62, 20, 20, 0.4)), url(back.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: Lato;
+    font-weight: 300;
+    position: relative;
+    height: 100vh;
+    color: #555;
+}
+.container{
+    width: 1024px;
+    height: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.3);
+    
+
+}
+header{
+    height: 100px;
+    text-align: center;
+    object-position: center;
+    background-color: #f7f7f7;
+   
+    width: 100%;
+}
+header > .newgame{
+    border: none;
+    font-size: 23px;
+    font-family: Lato;
+    cursor: pointer;
+    position: relative;
+    outline: none;
+    margin-top: 30px;
+    text-transform: uppercase;
+    color: #EB4D4D;
+    font-weight: 500;
+    background-color: #f7f7f7;
+}
+
+section{
+    justify-content: center;
+    text-align: center;
+    width: auto;
+}
+
+section .firstplayer{
+    font-family: 'Lato';
+    text-transform: uppercase;
+    float: left;
+    background-color:white;
+    width: 50%;
+    height: 480px;
+}
+section .secondplayer{
+    float: left;
+    font-family: 'Lato';
+    text-transform: uppercase;
+    width:50% ;
+    height: 480px;
+    background-color:#f7f7f7;
+}
+
+.player1{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 10px;
+    color: #EB4D4D;
+}
+.player2{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 10px;
+
+}
+ 
+
+section >.diceone{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    justify-content: center;
+    align-items:center;
+    position: absolute;
+    top:38%;
+    left:45%;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.3);
+    
+}
+section > .firstplayer > .playerscore0{
+    padding-top: 40px;
+    font-size: 40px;
+    
+}
+
+
+
+section > .firstplayer > .currentscorelabel1{
+    padding-top: 120px;
+    font-size: 25px;
+    
+    
+}
+
+section > .firstplayer > .currentscore0{
+    padding-top: 60px;
+    font-size: 40px;
+    
+}
+
+
+section > .secondplayer > .playerscore1{
+    padding-top: 33px;
+    font-size: 40px;
+}
+
+section > .secondplayer > .currentscorelabel2{
+    padding-top: 120px;
+    font-size: 25px;
+    color: #EB4D4D;
+}
+
+
+
+    section > .secondplayer > .currentscore1{
+        padding-top: 60px;
+        font-size: 40px;
+    }
+    
+    .hold1{
+        position: absolute;
+        width: 300px;
+        left: 49%;
+        transform: translateX(-50%);
+        color: #555;
+        background: none;
+        border: none;
+        font-family: 'Lato';
+        font-size: 23px;
+        text-transform: uppercase;
+        cursor: pointer;
+        font-weight: 400;
+        transition: background-color 0.3s, color 0.3s;
+        border: none;
+        bottom:14%;
+        text-align: center;
+    
+    }
+    
+
+     .roll{
+        position: absolute;
+        width: 300px;
+        left: 49%;
+        transform: translateX(-50%);
+        color: #555;
+        background: none;
+        border: none;
+        font-family: 'Lato';
+        font-size: 23px;
+        text-transform: uppercase;
+        cursor: pointer;
+        font-weight: 300;
+        transition: background-color 0.3s, color 0.3s;
+        border: none;
+        bottom:24%;
+        text-align: center;
+    
+    }
+    
+    button:hover { font-weight: 600; }
+    button:hover i { margin-right: 20px; }
+    
+    button:focus {
+        outline: none;
+    }
+    
+    i {
+        color: #EB4D4D;
+        display: inline-block;
+        margin-right: 15px;
+        font-size: 32px;
+        line-height: 1;
+        vertical-align: text-top;
+        margin-top: -4px;
+        transition: margin 0.3s;
+    }
+    
+    
+
+
+
